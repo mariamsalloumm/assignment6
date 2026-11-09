@@ -1,0 +1,30 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> mariam-salloum-notes-api@1.0.0 test
+> node --test tests/api.test.js
+
+▶ CRUD, validation, malformed input and database persistence
+  ✔ Frontend and assets are served (35.299799ms)
+  ✔ GET empty list returns 200 (5.690102ms)
+  ✔ POST creates a note with 201 (10.482515ms)
+  ✔ GET list contains saved note (2.788988ms)
+  ✔ GET one returns 200 (3.164533ms)
+  ✔ PUT replaces editable fields (3.765002ms)
+  ✔ POST invalid title returns 400 (2.402431ms)
+  ✔ PUT missing content returns 400 (1.991879ms)
+  ✔ Malformed JSON returns 400 (2.501949ms)
+  ✔ Invalid ID returns 400 (1.381329ms)
+  ✔ Unknown route returns 404 (1.389221ms)
+  ✔ Missing GET and PUT return 404 (2.505365ms)
+  ✔ SQLite retains data after closing and reopening database (7.128236ms)
+  ✔ DELETE returns 200 and removes note (2.666965ms)
+  ✔ Repeated DELETE returns 404 (1.255691ms)
+✔ CRUD, validation, malformed input and database persistence (97.588622ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 190.911722

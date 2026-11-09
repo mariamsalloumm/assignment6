@@ -1,0 +1,19 @@
+{
+  "name": "mariam-salloum-notes-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Assignment 6 persistent Notes REST API",
+  "author": "Mariam Salloum",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}

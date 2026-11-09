@@ -1,0 +1,4 @@
+Frontend verification: HTML, CSS and JavaScript are served successfully (automated HTTP test).
+Browser JavaScript syntax: node --check passed.
+Interactive browser verification was unavailable: the browser download failed in the build environment.
+Manual check: open localhost:3000; create a note, edit it, reload to confirm persistence, search for it, then delete it.
